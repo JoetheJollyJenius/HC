@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         Deck d = new Deck(1);
-        Hand h = new Hand(d.draw(1));
+        Hand h = new Hand(d.drw(1));
 
         BlackJack gameOne = new BlackJack(1,1,100,false);
     }
